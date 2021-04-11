@@ -1,11 +1,16 @@
 
 #main{
-    margin: 30px 8px;
+    margin: 10px auto;
     border-radius: 10px;
-    background: rgb(185, 185, 185);
-    padding: 15px;
+    background-color: #eee;
+    padding: 10px;
 }
-.title{
+
+#title{
+    font-size: 18px;
+    font-family: monospace;
+}
+.title1{
     color: white;
     font-size: 18px;
     font-family: monospace;
@@ -14,18 +19,35 @@
     text-align: center;
 }
 @media (max-width: 460px){
-    .title{
+    .title1{
         font-size: 10px;
     }
 }
 
 #image{
-    max-width: 100%;
-    height: auto;
-    
-   
+    max-width: 60%;
+    text-align: center;
+    display: block;
+    margin: 0 auto auto auto;
 }
 #img-div{
-    background: rgb(243, 243, 243);
-    padding: 12px;
+    background: rgb(230, 230, 230);
+    padding: 50px;
+    border-radius: 10px;
+    
+    
+}
+#img-caption{
+    margin: auto;
+}
+@media (max-width: 460px){
+#img-caption {
+    font-size: 1.4rem;
+}
+}
+.headline{
+    text-align: center;
+}
+#tribute-link{
+    color: #477
 }
